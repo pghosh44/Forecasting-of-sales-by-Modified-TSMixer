@@ -13,7 +13,7 @@ Before running the Colab notebook, ensure you have the necessary dependencies in
 
 First, ensure that you have all the necessary dependencies installed. To do this, you'll need to use the `requirements.txt` file. It can be installed using the following commands:
 
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
 

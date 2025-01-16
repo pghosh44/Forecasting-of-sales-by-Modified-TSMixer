@@ -1,6 +1,7 @@
 # SentiTSMixer - Running the Colab Notebook
 
 This README will guide you through the process of setting up and running the notebook.
+You need Python 3.9.20 to be installed beforehand
 
 ## Prerequisites
 

@@ -1,56 +1,79 @@
-# SentiTSMixer - Running the Colab Notebook
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
 
-This README will guide you through the process of setting up and running the notebook.
-You need Python 3.9.20 to be installed beforehand
+  <h1>SentiTSMixer - Running the Colab Notebook</h1>
 
-## Prerequisites
+  <p>This README will guide you through the process of setting up and running the notebook.<br>
+  You need <strong>Python 3.9.20</strong> to be installed beforehand.</p>
 
-Before running the Colab notebook, ensure you have the necessary dependencies installed. You can install the required packages by running the `requirements.txt` file.
+  <hr>
 
-## Step-by-step Instructions
+  <h2>Prerequisites</h2>
+  <p>Before running the Colab notebooks, ensure you have the necessary dependencies installed.
+  You can install the required packages by running the <code>requirements.txt</code> file.</p>
 
-### 1. Install Dependencies from `requirements.txt`
+  <hr>
 
-First, ensure that you have all the necessary dependencies installed. To do this, you'll need to use the `requirements.txt` file. It can be installed using the following commands:
+  <h2>Step-by-step Instructions</h2>
 
-    
-    pip install -r requirements.txt
-    
+  <h3>1. Install Dependencies from <code>requirements.txt</code></h3>
+  <p>Install the required packages using:</p>
+  <pre><code>pip install -r requirements.txt</code></pre>
 
-### 2. Open the Colab Notebook
+  <hr>
 
-To run the code in Google Colab, simply follow these steps:
+  <h3>2. Open the Colab Notebooks</h3>
+  <p>There are <strong>two Jupyter notebooks</strong> included in this project:</p>
+  <ul>
+    <li><strong>Magazine_BERT_SentimentAnalysis</strong></li>
+    <li><strong>Magazine_VADER_SentimentAnalysis</strong></li>
+  </ul>
 
-1. Open the **notebook** in Jupyter Notebook by navigating to the URL of the notebook (if you have the link, paste it in your browser).
-2. Once the notebook is open, ensure you have connected the runtime by clicking the **Connect** button on the top-right corner.
+  <p>To run them in Google Colab:</p>
+  <ol>
+    <li>Open the notebook (either BERT or VADER) in Colab using its URL or by uploading it directly.</li>
+    <li>Click the <strong>“Connect”</strong> button in the top-right to connect to a runtime.</li>
+  </ol>
 
-### 3. Running the Colab Code
+  <p><strong>Note:</strong> The <em>dataset path needs to be updated</em> in the notebook based on your file location before running.</p>
 
-The Colab notebook is divided into cells, and each cell contains a block of code that should be executed in order.
+  <hr>
 
-- **Running Cells**: To run each cell, click the **Play** button to the left of each cell or use **Shift + Enter** on your keyboard.
+  <h3>3. Running the Colab Code</h3>
+  <p>The notebooks are divided into cells. Run each cell in order:</p>
+  <ul>
+    <li>Click the <strong>Play</strong> button beside each cell</li>
+    <li>Or press <strong>Shift + Enter</strong> to execute</li>
+  </ul>
 
-  **Note**: Ensure that you are running the cells sequentially to avoid errors.
+  <p><strong>Tip:</strong> Run cells sequentially to avoid errors.</p>
 
-### 4. Key Steps in the Colab Notebook
+  <hr>
 
-Here are the general steps you will follow within the notebook:
+  <h3>4. Key Steps in the Notebooks</h3>
+  <ul>
+    <li><strong>Install Dependencies:</strong> The first cell usually installs required packages using pip.</li>
+    <li><strong>Set up Environment:</strong> Configure variables, download resources, and prepare data.</li>
+    <li><strong>Update Dataset Path:</strong> Ensure dataset path is correct before loading data.</li>
+    <li><strong>Run Sentiment Analysis:</strong> Execute code blocks that perform sentiment analysis using BERT or VADER.</li>
+    <li><strong>Review Output:</strong> Check final results, predictions, or visualizations.</li>
+  </ul>
 
-- **Install Dependencies**: The first cell in the notebook will contain commands to install the dependencies (e.g., `!pip install ...`). If not, refer to step 1 and install the packages.
-  
-- **Set up Environment**: The next set of cells will configure your environment by setting up variables, downloading resources, or preparing any data.
+  <hr>
 
-- **Run SentiTSMixer Code**: Follow the instructions and run the code cells that perform the sentiment analysis, data processing, and any other tasks involved in SentiTSMixer.
+  <h3>5. Troubleshooting</h3>
+  <ul>
+    <li>Make sure all dependencies are installed.</li>
+    <li>Verify the dataset path is accurate.</li>
+    <li>Run cells in correct order to maintain state.</li>
+    <li>Ensure internet access and file permissions are in place.</li>
+  </ul>
 
-- **Output/Results**: Once all cells have been run, check the results in the final output sections of the notebook.
+  <p>Feel free to reach out to us if you have any questions or face difficulties.</p>
 
-### 5. Troubleshooting
-
-If you encounter any errors while running the cells, ensure that:
-
-- You've installed all required dependencies.
-- You've run the cells in the correct order.
-- Your environment has access to the necessary resources (e.g., internet connection, storage).
-
-Feel free to reach out if you have any questions or issues.
-
+</body>
+</html>
